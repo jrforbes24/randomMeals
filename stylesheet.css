@@ -7,3 +7,7 @@ textarea {
 	width: 320px;
 	height: 250px;
 }
+
+#meals {
+	display: none;
+}
