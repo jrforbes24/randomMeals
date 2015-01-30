@@ -17,9 +17,21 @@ function reveal() {
 }
 
 function getMeals () {
-	var first = Math.floor(Math.random() * myMeals.length)
-	alert(myMeals);
-	document.getElementById("firstChoice").value = myMeals[first];
+	
+	for(var i =0; i<3; i++){
+		
+		
+		var rand = Math.floor(Math.random() * myMeals.length)
+
+		document.getElementById(i).innerHTML = myMeals[rand];
+	
+	}
+	
+	
+	
+	
+	
 	
 }
+
 

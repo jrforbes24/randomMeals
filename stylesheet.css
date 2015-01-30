@@ -1,7 +1,8 @@
 .textboxMeal {
- 	width: 300px;
+ 	width: auto;
 	height: 20px;
 	margin: 20px;
+	
 }
 textarea {
 	width: 320px;
@@ -10,4 +11,8 @@ textarea {
 
 #meals {
 	display: none;
+}
+
+body {
+	background-color: #F7F4DF;
 }
