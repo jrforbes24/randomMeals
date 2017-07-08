@@ -7,9 +7,9 @@ body {
  	width: 75%;
 	height: 20px;
 	margin: 20px;
-    background-color: white;
-    padding: 1%;
-    box-shadow: 10px 10px 8px #9cad93;
+  background-color: white;
+  padding: 10px 25px;
+  box-shadow: 10px 10px 8px #9cad93;
 }
 
 textarea {
@@ -33,6 +33,7 @@ body {
 button {
     margin-left: 15%;
     margin-bottom: 2%;
+    margin-top: 2%;
     padding: 2% 4%;
     font-size: 1.5em;
     font-weight: bolder;
